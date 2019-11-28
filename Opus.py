@@ -133,7 +133,7 @@ def nextsong(event):
         pygame.mixer.music.play()
         status['text'] = 'Playing Music' + ' ' + listofsongs[index]
         show_details(index)
-        AddData()
+        #AddData()
 
 def previoussong(event):
     global countindex
@@ -145,7 +145,7 @@ def previoussong(event):
         pygame.mixer.music.play()
         status['text'] = 'Playing Music' + ' ' + listofsongs[index]
         show_details(index)
-        AddData()
+        #AddData()
 
 def set_vol(val):
     pygame.mixer.init()
@@ -246,10 +246,10 @@ def StreamPlay(Event):
     player.set_media(Media)
     player.play()
     timeone = strftime("%Y-%m-%d %H:%M:%S",gmtime())
-    currone.execute("INSERT INTO STREAMING (URL,time) VALUES (?,?)",(url,timeone))
-    conn.commit()
+    #currone.execute("INSERT INTO STREAMING (URL,time) VALUES (?,?)",(url,timeone))
+    #conn.commit()
 
-
+'''
 def DataBaseConnect():
     global conn
     conn = sqlite3.connect('DataBase.db')
@@ -279,7 +279,7 @@ def AddData():
     SongName = tag.title
     SongAlbum = tag.album
     #DataBaseTable()
-
+'''
 def YouTubeDownloader(event):
     url1 = textbox1.get()
     yt = YouTube(url1) 

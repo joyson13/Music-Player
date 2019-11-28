@@ -1,0 +1,6 @@
+pygame
+mutagen
+pafy
+pytube
+eyed3
+ttkthemes
