@@ -4,9 +4,8 @@
 
 <h3> Instructions</h3>
 <p>
-1. Run `python install -r requirements.txt` (Use `python3` instead of `python` if you are using Linux).
-2. To make sure the imports are done correctly, put all the dependencies that were just installed into the project's directory.
-3. Go to the link https://drive.google.com/drive/folders/1h922YyBB1OZgOX-FqpkKspHkOAiaMs-q?usp=sharing and include these dependencies in your project's directory as well. (These are a set of modules not readily available and cannot be uploaded on GitHub due to upload size constraints.)
-4. Run `python Opus.py`.
-5. Happy hacking!
-</p>
+1. Run `python install -r requirements.txt` (Use `python3` instead of `python` if you are using Linux).</p>
+<p>2. To make sure the imports are done correctly, put all the dependencies that were just installed into the project's directory.</p>
+<p>3. Go to the link https://drive.google.com/drive/folders/1h922YyBB1OZgOX-FqpkKspHkOAiaMs-q?usp=sharing and include these dependencies in your project's directory as well. (These are a set of modules not readily available and cannot be uploaded on GitHub due to upload size constraints.)</p>
+<p>4. Run `python Opus.py`.</p>
+<p>5. Happy hacking!</p>
